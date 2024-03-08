@@ -1,0 +1,86 @@
+--------------------------------------------------
+Milestone 00: Initiation and Basic Game Structures
+--------------------------------------------------
+Started July, 2022 with ~1 years of breaks along the way
+
+- [x] (MS00-Init) boot game process, state, canvas setup
+- [x] (MS00-Environment) stage tiles, map chunks, random generation of grass and trees
+- [x] (MS00-Environment) collision tiles
+- [x] (MS00-Player) sprite container, graphics layers, movement input, tile texture swap
+- [x] (MS00-Inventory) actor items, inventory UI, inventory filtering
+- [x] (MS00-Rendering) FOV tiles and FOV calculations
+- [x] (MS00-Environment) noise and generating terrain, water, elevation boundaries
+- [x] (MS00-Items) inspect, take, drop, use, recharge, stack, randomize
+- [x] (MS00-Enemies) actor rendering, injection logic, behaviors, aggro follow
+- [x] (MS00-Combat) basic naive melee combat, level-up, stat points, player death
+- [x] (MS00-Items) stat boosting, turn-based charges
+- [x] (MS00-Environment) day/night cycle
+- [x] (MS00-Environment) world/item light sources with light tiles and light scores
+- [x] (MS00-Structures) basic structure generation
+- [x] (MS00-Map) canvas map with zoom, re-centering, and full-screen modes
+- [x] (MS00-Environment) terrain generation overhaul, add mountains, add snow regions
+- [x] (MS00-Graphics) basic tile animations for environment (water, campfire) and actors
+
+------------------------------------------------------------------------------------
+Milestone 01: NPC Basics - creation, rendering, dialogue, turns (Started March 2024)
+------------------------------------------------------------------------------------
+Started March, 2024
+
+- [x] (MS01-NPC) function to create named npc that can be inserted into a map
+- [x] (MS01-NPC) npc can have random walk behavior and items equipped like player
+- [ ] (MS01-NPC) npc can have dialogue behavior that calls up dialogue UI
+- [ ] (MS01-NPC) if no npc dialogue behavior, show message that npc does not want to be bothered
+- [ ] (MS01-NPC) npc will turn to face player if needed
+- [ ] (MS01-NPC) break up npc dialogue into panels
+- [ ] (MS01-NPC) shift + any arrow will cancel dialogue
+- [ ] (MS01-NPC) space key to each dialogue panel takes one turn
+- [ ] (MS01-NPC) space key to go between panels (dialogue branching later if necessary)
+- [ ] (MS01-NPC) npc can have categories of random dialogue which are decided on interaction
+- [ ] (MS01-NPC) on turn, process npc item/stat calculations just like player
+- [ ] (MS01-NPC) more body/hair/clothes graphics + randomized NPC generator
+- [ ] (MS01-NPC) generate and insert NPCs into world map with random dialogue
+- [ ] (MS01-NPC) start/stop npc active state if outside chunk boundary (within 2 chunks?)
+
+----------------------------------------------------------------
+Milestone: Prefab Building Structures with Interior Instructions
+----------------------------------------------------------------
+
+------------------------------------------------------
+Milestone: Town Generation and Chunk-Based Road System
+------------------------------------------------------
+
+---------------------------------------------------------------
+Milestone: NPC Deeper - Schedules, Points of Interest, Basic AI
+---------------------------------------------------------------
+
+------------------------------
+Milestone: Shops, Inns, Chests
+------------------------------
+
+-------------------------------------------
+Milestone: Cave Generation, Map Transitions
+-------------------------------------------
+
+-----------------------------------------------------
+Milestone: Overhaul File-Based Game State Persistence
+-----------------------------------------------------
+
+---------------------------------------------------------------------
+Milestone: World Region Boundaries with Progressive Enemy Spawn Loops
+---------------------------------------------------------------------
+
+----------------------------------------------------------
+Milestone: Overhaul Combat Logic, Add Ranged Combat (Bows)
+----------------------------------------------------------
+
+---------------------------------
+Milestone: Basics of Magic System
+---------------------------------
+
+---------------------------------
+Milestone: Basics of Quest System
+---------------------------------
+
+-----------------------------
+Milestone: Playable Demo Game
+-----------------------------

@@ -28,18 +28,18 @@ Started March, 2024
 
 - [x] (MS01-NPC) function to create named npc that can be inserted into a map
 - [x] (MS01-NPC) npc can have random walk behavior and items equipped like player
-- [ ] (MS01-NPC) npc can have dialogue behavior that calls up dialogue UI
-- [ ] (MS01-NPC) if no npc dialogue behavior, show message that npc does not want to be bothered
-- [ ] (MS01-NPC) npc will turn to face player if needed
-- [ ] (MS01-NPC) break up npc dialogue into panels
-- [ ] (MS01-NPC) shift + any arrow will cancel dialogue
-- [ ] (MS01-NPC) space key to each dialogue panel takes one turn
-- [ ] (MS01-NPC) space key to go between panels (dialogue branching later if necessary)
-- [ ] (MS01-NPC) npc can have categories of random dialogue which are decided on interaction
-- [ ] (MS01-NPC) on turn, process npc item/stat calculations just like player
-- [ ] (MS01-NPC) more body/hair/clothes graphics + randomized NPC generator
-- [ ] (MS01-NPC) generate and insert NPCs into world map with random dialogue
-- [ ] (MS01-NPC) start/stop npc active state if outside chunk boundary (within 2 chunks?)
+- [x] (MS01-NPC) npc can have dialogue behavior that calls up dialogue UI
+- [x] (MS01-NPC) if no npc dialogue, show message that they don't want to talk
+- [x] (MS01-NPC) Escape key will cancel dialogue
+- [x] (MS01-NPC) space key to each dialogue panel takes one turn
+- [x] (MS01-NPC) npc will turn to face player if needed
+- [x] (MSO1-NPC) npc dialogue can have init function to determine branch
+- [x] (MS01-NPC) npc dialogue branch can have player responses that change branches
+- [x] (MS01-NPC) npc can have categories of random dialogue which are decided on interaction
+- [x] (MS01-NPC) on turn, process npc item/stat calculations just like player
+- [x] (MS01-NPC) more body/hair/clothes graphics
+- [x] (MS01-NPC) randomized NPC generator
+- [x] (MS01-NPC) generate and insert NPCs into world map with random dialogue
 
 ----------------------------------------------------------------
 Milestone: Prefab Building Structures with Interior Instructions
